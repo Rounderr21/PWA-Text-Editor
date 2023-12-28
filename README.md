@@ -1,25 +1,26 @@
 # PWA-Text-Editor
 
-# FIX BELOW THIS IS JUST THE EXAMPLE
 # Video link for Application:
-https://drive.google.com/file/d/1v0tCs8UJ2HIOxIdIkFBqaayUzQXiEI8S/view
-
+https://drive.google.com/file/d/15CogcgoGAKQ7ZaMaA8b11N05Zmscw4BI/view
 
 # Project Description:
-This Project is designed to create a database for a social media API. With this database we can create Users, Find Users by specific ID, Update a User, Delete a User, Add friends to the User, and delete friends from the User. We can also create Thoughts, Find Thought by specific ID, remove a Thought, create a Reaction to a Thought, and Delete a Reaction to a Thought.
+This Project is designed to create an application that can be used to work offline and online. It is a simple text editor that you can write down whatever you want in a console.log(). Once you save it, the text that was written is saved so that it can be used or seen when offline.
 
-To start the project, open the terminal. Type `node index.js` into the terminal. The Server will then be live. Using Insomnia we can create different Get, Post, Delete, and Put routes to add or delete things from the database.
+To start the project, open the terminal. Type `npm run start` into the terminal. The Server will then run and build based on the functions located in the `package.json` file. once this occurs a `dist` folder will be created and this is a compressed version of the live application. once this occurs the server will be live. and display this in the terminal: 
+`webpack 5.89.0 compiled successfully in 2874 ms`
+`Now listening on port: http://localhost:3000/`
 
 # Javascript Files:
-Started with no starter code for index.js. started by installing all npm's that i needed such as `express`, `mongodb`, `mongoose`, and `nodemon`. Created models to make a database. Created controllers to recieve all Get, Post, Delete, and Put infromation. created routes to make the user be able to use the Get, Post, Delete, and Put routes to feed information into the database
+Started with starter code for index.js. Started by installing all npm's that i needed. Fixed issues with files `src-sw.js`, `webpack.config.js`, `package.json`, `database.js`, and `install.js`.
 
 # Github:
-Pushed out Javascript, and README when finishing any coding edits, as to ensure I could go back at anytime to earlier designs if need be.
+Pushed out Starter files, Javascript files, Images, and README when finishing any coding edits, as to ensure I could go back at anytime to earlier designs if need be.
 
 # Project is located at this URL:
-https://github.com/Rounderr21/Social_Data_API
+https://github.com/Rounderr21/PWA-Text-Editor
 
 # Screenshot of the Project:
-![Alt text](./images/Screenshot%20(146).png "Using Get route to find all Users")
-![Alt text](./images/Screenshot%20(147).png "Using Post route to create a new Thought from a User")
-![Alt text](./images/Screenshot%20(148).png "Using Post route to create a new Reaction about a Thought")
+![Alt text](./images/Screenshot%20(152).png "Running Application on Heroku")
+![Alt text](./images/Screenshot%20(153).png "Manifest location shown")
+![Alt text](./images/Screenshot%20(154).png "Service workers shown")
+![Alt text](./images/Screenshot%20(155).png "IndexedDB shown")
